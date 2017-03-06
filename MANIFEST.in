@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include makwiz_bankreconciliation *.css
+recursive-include makwiz_bankreconciliation *.csv
+recursive-include makwiz_bankreconciliation *.html
+recursive-include makwiz_bankreconciliation *.ico
+recursive-include makwiz_bankreconciliation *.js
+recursive-include makwiz_bankreconciliation *.json
+recursive-include makwiz_bankreconciliation *.md
+recursive-include makwiz_bankreconciliation *.png
+recursive-include makwiz_bankreconciliation *.py
+recursive-include makwiz_bankreconciliation *.svg
+recursive-include makwiz_bankreconciliation *.txt
+recursive-exclude makwiz_bankreconciliation *.pyc
